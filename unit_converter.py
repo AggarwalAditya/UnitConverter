@@ -221,15 +221,10 @@ def n_to_dyn(newtons):
 def n_to_pdl(newtons):
     return newtons * 7,23301 #Precision of 5 significant digits
 
-<<<<<<< HEAD
 # Newtons to kilopond
 def n_to_kp(newtons):
     return newtons * (0.101972)
 
-
-
-=======
->>>>>>> 42de76869c523bb9da5317f48c321b3a355c7a4f
 # TIME CONVERSION
 def convert_time(value, units_from_base, units_to_base):
     return value * units_from_base / units_to_base
